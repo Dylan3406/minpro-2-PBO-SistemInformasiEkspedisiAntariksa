@@ -88,4 +88,6 @@ Setiap Controller mengisi dummy data awal saat program dijalankan:
 - **Pesawat Antariksa**: "Garuda Nusantara" (jenis Roket Orbital, status Siap).
 
 ## Dokumentasi Output
+<img width="288" height="174" alt="image" src="https://github.com/user-attachments/assets/bae9bc31-8e90-4b9c-bf6b-4784518c8f2c" />
+Ini adalah Tampilan awal ketika baru memulai program ekspedisi antariksa
 
