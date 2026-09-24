@@ -88,6 +88,28 @@ Setiap Controller mengisi dummy data awal saat program dijalankan:
 - **Pesawat Antariksa**: "Garuda Nusantara" (jenis Roket Orbital, status Siap).
 
 ## Dokumentasi Output
+### Menu Awal
 <img width="288" height="174" alt="image" src="https://github.com/user-attachments/assets/bae9bc31-8e90-4b9c-bf6b-4784518c8f2c" />
-Ini adalah Tampilan awal ketika baru memulai program ekspedisi antariksa
+Ini adalah Tampilan awal ketika baru memulai program ekspedisi antariksa <br>
+
+### Menu Kelas Ekspedisi
+<img width="286" height="176" alt="image" src="https://github.com/user-attachments/assets/c874b762-9855-47bc-ac48-84dc5eecfb50" />
+Ini Adalah Tampilan menu CRUD di kelas Ekspedisi <br>
+
+### Create Ekspedisi
+<img width="357" height="273" alt="image" src="https://github.com/user-attachments/assets/a7966c2e-c74e-4bcc-9238-efd09599d82b" />
+Ini adalah hal hal yang perlu di Input di dalam mode Create Ekspedisi, setelah selesai program akan looping kembali ke menu kelas ekspedisi <br>
+
+### Read Ekspedisi
+<img width="298" height="243" alt="image" src="https://github.com/user-attachments/assets/d41573ad-aa1b-41de-89a4-14d60ef7c43e" />
+Ini adalah Output dari Read Ekspedisi, ID Ekspedisi 1 adalah data dummy yang harus dibuat sesuai dengan ketentuan mini project 2. dan ID Ekspedisi 2 adalah data dari yang kita input sebelumnya, untuk status dari data ekspedisi yang kita tambahkan itu masih berstatus direncanakan yang berarti ekspedisi ini belum dilaksanakan <br>
+
+### Update Ekspedisi
+<img width="314" height="210" alt="image" src="https://github.com/user-attachments/assets/42a89734-a4ed-44fb-a0fc-5ee360eeb5fe" />
+Ini adalah Output dari Update Ekspedisi, disini kita hanya mengubah status dari ekspedisinya saja <br>
+
+<img width="297" height="247" alt="image" src="https://github.com/user-attachments/assets/9714d6f4-977f-4062-ad7d-67042c331cb4" />
+Status yang sudah kita update sudah berhasil dirubah pada saat kita tampilkan datanya <br>
+
+
 
