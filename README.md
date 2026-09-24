@@ -1,4 +1,4 @@
-# Minpro-2-PBO-ManajemenEkspedisiAntariksa
+# Minpro 2 PBO Sistem Informasi Ekspedisi Antariksa
 
 ## Deskripsi Singkat Program
 
@@ -84,5 +84,8 @@ Diterapkan dalam dua bentuk:
 
 Setiap Controller mengisi dummy data awal saat program dijalankan:
 - **Ekspedisi**: "Artemis Kaltim I" (tujuan Bulan, status Berlangsung).
-- **Kru**: 1 data Astronot ("Dylan Al Furqon") dan 1 data Teknisi ("Rian Saputra").
+- **Kru**: 1 data Astronot ("Dylan Al Furqon") dan 1 data Teknisi ("Tony Stark").
 - **Pesawat Antariksa**: "Garuda Nusantara" (jenis Roket Orbital, status Siap).
+
+## Dokumentasi Output
+
