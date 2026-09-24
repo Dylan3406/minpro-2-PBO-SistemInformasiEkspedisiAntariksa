@@ -65,9 +65,9 @@ Diterapkan dalam dua bentuk:
 ## Dummy Data Awal
 
 Setiap Controller mengisi dummy data awal saat program dijalankan:
-- **Ekspedisi**: "Artemis Kaltim I" (tujuan Bulan, status Berlangsung).
+- **Ekspedisi**: "Galang Dana BEM KM UNMUL" (tujuan Mars, status Berlangsung).
 - **Kru**: 1 data Astronot ("Dylan Al Furqon") dan 1 data Teknisi ("Tony Stark").
-- **Pesawat Antariksa**: "Garuda Nusantara" (jenis Roket Orbital, status Siap).
+- **Pesawat Antariksa**: "Taufan BAEK" (jenis Roket Orbital, status Siap).
 
 ## Dokumentasi Output
 ### Menu Awal
