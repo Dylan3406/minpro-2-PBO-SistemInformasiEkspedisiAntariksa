@@ -70,7 +70,7 @@ public class Main {
     static void menuKru(View view, KruController controller) {
         int pilihan;
         do {
-            view.tampilkanHeader("              KELOLA KRU");
+            view.tampilkanHeader("KELOLA KRU");
             view.cetak("1. Tambah Data");
             view.cetak("2. Tampilkan Data");
             view.cetak("3. Ubah Data");
@@ -98,7 +98,7 @@ public class Main {
     static void menuPesawat(View view, PesawatController controller) {
         int pilihan;
         do {
-            view.tampilkanHeader("       KELOLA PESAWAT ANTARIKSA");
+            view.tampilkanHeader("KELOLA PESAWAT ANTARIKSA");
             view.cetak("1. Tambah Data");
             view.cetak("2. Tampilkan Data");
             view.cetak("3. Ubah Data");
