@@ -21,24 +21,6 @@ Setiap entitas mendukung operasi CRUD penuh: Tambah, Tampilkan, Ubah, dan Hapus 
 
 ## Struktur Package (MVC)
 
-```
-src/mini/project/pkg2/
-├── model/          # (Model) Representasi data & aturan bisnis dasar tiap entitas
-│   ├── Ekspedisi.java
-│   ├── Kru.java              -> superclass (abstract)
-│   ├── Astronot.java         -> subclass Kru
-│   ├── Teknisi.java          -> subclass Kru
-│   └── PesawatAntariksa.java
-├── view/           # (View) Seluruh tampilan teks & pembacaan input pengguna beserta validasinya
-│   └── View.java
-├── controller/     # (Controller) Logika bisnis: CRUD, validasi ID unik, pencarian data, menghubungkan Model <-> View
-│   ├── EkspedisiController.java
-│   ├── KruController.java
-│   └── PesawatController.java
-└── main/           # Entry point aplikasi, hanya menampilkan menu & mendelegasikan ke Controller
-    └── Main.java
-```
-
 - **Model** hanya berisi atribut (private), constructor, getter/setter, dan method tampilan data milik dirinya sendiri. Tidak ada logika menu atau `Scanner` di sini.
 - **View** hanya berisi method untuk mencetak teks ke layar dan membaca+memvalidasi input dari `Scanner`. View tidak menyimpan data aplikasi.
 - **Controller** menyimpan `ArrayList` data, berisi seluruh logika CRUD dan validasi (misalnya cek ID duplikat), lalu memanggil `View` untuk berinteraksi dengan pengguna dan `Model` untuk membuat/mengubah objek data.
@@ -137,10 +119,10 @@ Ini adalah Output dari Read Kru, ID Kru 1 dan 2 itu adalah data dummy yang dibua
 
 ### Update Kru
 <img width="323" height="189" alt="image" src="https://github.com/user-attachments/assets/6cb431c3-66f8-408d-b11c-f5056593a712" /> <br>
-Ini adalah Output dari Update Kru, berbeda dengan update ekspedisi, disini kita bisa mengubah semua data yang ada di ID Ekspedisi tersebut. Tetapi disini saya hanya mengubah Bidangnya dan Sertifikasinya saja <br>
+Ini adalah Output dari Update Kru, berbeda dengan update ekspedisi, disini kita bisa mengubah semua data yang ada di ID Kru tersebut. Tetapi disini saya hanya mengubah Bidangnya dan Sertifikasinya saja <br>
 
 <img width="582" height="446" alt="image" src="https://github.com/user-attachments/assets/495276d7-84cc-45b8-80f1-959ac08009b3" /> <br>
-Hasil dari data yang sudah kita ubah sebelumnya bisa dilihat pada mode Read Kru <br>
+Hasil dari data yang sudah diubah sebelumnya bisa dilihat pada mode Read Kru <br>
 
 ### Delete Kru
 <img width="292" height="86" alt="image" src="https://github.com/user-attachments/assets/79fe2648-56c2-4764-8861-9798d1404b04" /> <br>
@@ -156,3 +138,21 @@ Ini adalah tampilan menu CRUD di kelas Pesawat Antariksa
 ### Create Pesawat
 <img width="268" height="250" alt="image" src="https://github.com/user-attachments/assets/76fc0152-a85b-4cc4-a2d0-3f9fc63a02ec" /> <br>
 Ini adalah hal hal yang perlu di input dalam mode Create Pesawat, disini user diminta menginput nama, jenis, kapasitas, dan status dari pesawatnya <br>
+
+### Read Pesawat
+<img width="283" height="247" alt="image" src="https://github.com/user-attachments/assets/d3522a8d-b616-489e-b134-3befdb78da8d" /> <br>
+Ini adalah output dari Read Pesawat, ID 1 adalah data dummy sesuai dengan instruksi mini project 2, sedangkan ID 2 adalah data yang baru ditambahkan pada proses sebelumnya <br>
+
+### Update Pesawat 
+<img width="304" height="245" alt="image" src="https://github.com/user-attachments/assets/998e103e-f395-41e3-8caa-12907ce1f6f4" /> <br>
+Ini adalah Output dari Update pesawat, sama seperti update Kru, disini kita bisa mengubah semua data yang ada di ID Pesawat tersebut. Tetapi disini saya hanya mengubah Statusnya saja <br>
+
+<img width="288" height="246" alt="image" src="https://github.com/user-attachments/assets/e37cf45c-bcc0-4de9-941c-3c3d46478d38" /> <br>
+Dapat dilihat hasil dari status yang sudah diubah sebelumnya pada mode Read Pesawat <br>
+
+### Delete Pesawat
+<img width="311" height="80" alt="image" src="https://github.com/user-attachments/assets/bf18569e-337d-4df2-8af4-fc667a6a3425" /> <br>
+Di bagian ini User akan diminta menginput ID Pesawat yang ingin kita hapus, alur Delete ini sama dengan kedua alur sebelumnya <br>
+
+<img width="306" height="151" alt="image" src="https://github.com/user-attachments/assets/4a3d4bf2-cae3-4031-bd54-5d7f69b694ba" /> <br>
+Dapat kita lihat ID Pesawat yang tadi kita input sudah berhasil terhapus dan bisa dilihat pada mode Read Pesawat <br>
