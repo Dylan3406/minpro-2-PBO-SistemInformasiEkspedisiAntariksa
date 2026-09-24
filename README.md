@@ -89,27 +89,70 @@ Setiap Controller mengisi dummy data awal saat program dijalankan:
 
 ## Dokumentasi Output
 ### Menu Awal
-<img width="288" height="174" alt="image" src="https://github.com/user-attachments/assets/bae9bc31-8e90-4b9c-bf6b-4784518c8f2c" />
+<img width="288" height="174" alt="image" src="https://github.com/user-attachments/assets/bae9bc31-8e90-4b9c-bf6b-4784518c8f2c" /> <br>
 Ini adalah Tampilan awal ketika baru memulai program ekspedisi antariksa <br>
 
 ### Menu Kelas Ekspedisi
-<img width="286" height="176" alt="image" src="https://github.com/user-attachments/assets/c874b762-9855-47bc-ac48-84dc5eecfb50" />
+<img width="286" height="176" alt="image" src="https://github.com/user-attachments/assets/c874b762-9855-47bc-ac48-84dc5eecfb50" /> <br>
 Ini Adalah Tampilan menu CRUD di kelas Ekspedisi <br>
 
 ### Create Ekspedisi
-<img width="357" height="273" alt="image" src="https://github.com/user-attachments/assets/a7966c2e-c74e-4bcc-9238-efd09599d82b" />
+<img width="357" height="273" alt="image" src="https://github.com/user-attachments/assets/a7966c2e-c74e-4bcc-9238-efd09599d82b" /> <br>
 Ini adalah hal hal yang perlu di Input di dalam mode Create Ekspedisi, setelah selesai program akan looping kembali ke menu kelas ekspedisi <br>
 
 ### Read Ekspedisi
-<img width="298" height="243" alt="image" src="https://github.com/user-attachments/assets/d41573ad-aa1b-41de-89a4-14d60ef7c43e" />
+<img width="298" height="243" alt="image" src="https://github.com/user-attachments/assets/d41573ad-aa1b-41de-89a4-14d60ef7c43e" /> <br>
 Ini adalah Output dari Read Ekspedisi, ID Ekspedisi 1 adalah data dummy yang harus dibuat sesuai dengan ketentuan mini project 2. dan ID Ekspedisi 2 adalah data dari yang kita input sebelumnya, untuk status dari data ekspedisi yang kita tambahkan itu masih berstatus direncanakan yang berarti ekspedisi ini belum dilaksanakan <br>
 
 ### Update Ekspedisi
-<img width="314" height="210" alt="image" src="https://github.com/user-attachments/assets/42a89734-a4ed-44fb-a0fc-5ee360eeb5fe" />
+<img width="314" height="210" alt="image" src="https://github.com/user-attachments/assets/42a89734-a4ed-44fb-a0fc-5ee360eeb5fe" /> <br>
 Ini adalah Output dari Update Ekspedisi, disini kita hanya mengubah status dari ekspedisinya saja <br>
 
-<img width="297" height="247" alt="image" src="https://github.com/user-attachments/assets/9714d6f4-977f-4062-ad7d-67042c331cb4" />
+<img width="297" height="247" alt="image" src="https://github.com/user-attachments/assets/9714d6f4-977f-4062-ad7d-67042c331cb4" /> <br>
 Status yang sudah kita update sudah berhasil dirubah pada saat kita tampilkan datanya <br>
 
+### Delete Ekspedisi
+<img width="327" height="87" alt="image" src="https://github.com/user-attachments/assets/683ccbea-7ac3-4729-b355-d718ef5f058a" /> <br>
+Di bagian ini user akan diminta untuk memasukkan ID Ekspedisi yang ada di data sebelumnya, saya menggunakan ID 2 yang baru kita bikin tadi datanya sebagai contoh <br>
 
+<img width="294" height="147" alt="image" src="https://github.com/user-attachments/assets/b8b3755f-a6de-4bd5-863f-c76921077c62" /> <br>
+Dapat kita lihat data yang kita hapus sudah hilang pada saat kita menampilkan datanya <br>
 
+### Menu Kelas Kru
+<img width="301" height="174" alt="image" src="https://github.com/user-attachments/assets/4a91ec77-7ba0-4942-9d7b-a0166144523a" /> <br>
+Ini adalah tampilan menu CRUD di kelas Kru <br>
+
+### Create Kru
+#### Astronot
+<img width="331" height="269" alt="image" src="https://github.com/user-attachments/assets/601c7b60-00fa-4e7d-a85d-9c65bdd7b049" /> <br>
+Ini adalah hal hal yang perlu di Input di dalam mode Create Kru, disini user dapat mengelompokkan Kru ini spesifiknya bekerja sebagai apa, sebagai contoh disini saya membuat kru astronot <br>
+
+#### Teknisi
+<img width="284" height="226" alt="image" src="https://github.com/user-attachments/assets/37a3fdb9-fcb9-40a2-aab3-8bbe4f0e49c3" /> <br>
+Ini adalah hal hal yang perlu di input user jika ingin menambahkan data kru di bagian teknisi <br>
+
+### Read Kru
+<img width="579" height="456" alt="image" src="https://github.com/user-attachments/assets/384aeef5-3faa-444c-b3dc-1ba6c3aa0985" /> <br>
+Ini adalah Output dari Read Kru, ID Kru 1 dan 2 itu adalah data dummy yang dibuat sesuai ketentuan mini project 2, sedangkan ID 3 dan 4 itu adalah data yang baru dibuat dengan masing masing kru yang berbeda spesifikasinya <br>
+
+### Update Kru
+<img width="323" height="189" alt="image" src="https://github.com/user-attachments/assets/6cb431c3-66f8-408d-b11c-f5056593a712" /> <br>
+Ini adalah Output dari Update Kru, berbeda dengan update ekspedisi, disini kita bisa mengubah semua data yang ada di ID Ekspedisi tersebut. Tetapi disini saya hanya mengubah Bidangnya dan Sertifikasinya saja <br>
+
+<img width="582" height="446" alt="image" src="https://github.com/user-attachments/assets/495276d7-84cc-45b8-80f1-959ac08009b3" /> <br>
+Hasil dari data yang sudah kita ubah sebelumnya bisa dilihat pada mode Read Kru <br>
+
+### Delete Kru
+<img width="292" height="86" alt="image" src="https://github.com/user-attachments/assets/79fe2648-56c2-4764-8861-9798d1404b04" /> <br>
+Di bagian ini User akan diminta untuk menginput ID Kru yang ingin kita hapus, alur Delete ini sama dengan alur sebelumnya di Delete Ekspedisi <br>
+
+<img width="589" height="346" alt="image" src="https://github.com/user-attachments/assets/a30d206e-bcc4-41ee-ac21-87bece457e7e" /> <br>
+Dapat kita lihat ID Kru yang tadi kita input sudah berhasil terhapus dan bisa dilihat pada mode Read Kru 
+
+### Menu Kelas Pesawat Antariksa
+<img width="285" height="175" alt="image" src="https://github.com/user-attachments/assets/320550bc-ec50-40e5-97e6-84811e020d1c" /> <br>
+Ini adalah tampilan menu CRUD di kelas Pesawat Antariksa
+
+### Create Pesawat
+<img width="268" height="250" alt="image" src="https://github.com/user-attachments/assets/76fc0152-a85b-4cc4-a2d0-3f9fc63a02ec" /> <br>
+Ini adalah hal hal yang perlu di input dalam mode Create Pesawat, disini user diminta menginput nama, jenis, kapasitas, dan status dari pesawatnya <br>
